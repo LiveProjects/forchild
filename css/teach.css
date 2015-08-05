@@ -1,0 +1,238 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: lio1;
+  src: url(../fonts/lio1.ttf);
+}
+@font-face {
+  font-family: lio;
+  src: url(../fonts/lio.ttf);
+}
+#teach-header {
+  min-height: 70px;
+  background: green;
+  padding-left: 0;
+  padding-right: 0;
+  -webkit-border-radius: 8px 8px 0px 0px;
+  -o-border-radius: 8px 8px 0px 0px;
+  -ms-border-radius: 8px 8px 0px 0px;
+  -moz-border-radius: 8px 8px 0px 0px;
+  border-radius: 8px 8px 0px 0px;
+}
+#teach-header #teach-header-left {
+  /* 		background:red; */
+  position: relative;
+}
+#teach-header #teach-header-left a {
+  display: block;
+  width: 60px;
+  height: 30px;
+  -webkit-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 30px;
+  top: 20px;
+  left: 10px;
+  background: yellow;
+}
+#teach-header #teach-header-left div {
+  height: 30px;
+}
+#teach-header #teach-header-left div button {
+  height: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+#teach-header #teach-header-left div button span {
+  background: url(../images/icons/1.png) center center no-repeat;
+  background-size: cover;
+  display: block;
+  width: 36px;
+  height: 36px;
+  float: left;
+}
+#teach-header #teach-header-right {
+  background: blue;
+}
+#teach-header #teach-header-right a {
+  height: 40px;
+  margin-top: 10px;
+}
+#teach-header #teach-header-right a span {
+  display: block;
+  width: 34px;
+  height: 34px;
+  background: url(../images/3.jpg) center center no-repeat;
+  background-size: cover;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  float: left;
+}
+#teach-header #teach-header-right img {
+  height: 68px;
+  margin-top: 10px;
+}
+#teach-middle-left {
+  height: 440px;
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+}
+#teach-middle-left > ul {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+#teach-middle-left > ul li {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#teach-middle-left > ul li ol {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#teach-middle-left > ul li ol li {
+  width: inherit;
+  height: inherit;
+  display: none;
+  background: url(../images/3.jpg) center center no-repeat;
+  list-style: none;
+  background: black;
+}
+#teach-middle-left > ul li ol li video {
+  width: 100%;
+}
+#teach-middle-left > ul li ol li:first-child {
+  display: block;
+}
+#teach-middle-left > ul li:nth-child(2) {
+  background: url(../images/2.jpg) center center no-repeat;
+  background-size: cover;
+}
+#teach-middle-left > ul li:nth-child(3) {
+  background: url(../images/3.jpg) center center no-repeat;
+  background-size: cover;
+}
+#teach-middle-left > ul li:nth-child(4) {
+  background: url(../images/4.jpg) center center no-repeat;
+  background-size: cover;
+}
+#teach-middle-left-button {
+  padding-left: 0;
+  padding-right: 0;
+  height: 50px;
+  background: blue;
+  padding: 0;
+}
+#teach-middle-left-button > div,
+#teach-middle-left-button button {
+  margin: 0;
+  padding-right: 0;
+  padding-left: 0;
+  -webkit-border-radius: 0px;
+  -o-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  font-size: 500;
+  font-weight: bold;
+  height: 100%;
+}
+#teach-middle-left-button > div button,
+#teach-middle-left-button button button {
+  width: 100%;
+}
+#teach-middle-left2 {
+  padding-left: 0;
+  padding-right: 0;
+  height: 240px;
+  overflow: hidden;
+  background: green;
+  margin-top: 10px;
+}
+#teach-middle-left3 {
+  padding-left: 0;
+  padding-right: 0;
+  height: 540px;
+  overflow: hidden;
+  background: green;
+  margin-top: 6px;
+}
+#luan {
+  padding-left: 0;
+  padding-right: 0;
+}
+#teach-left {
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+#teach-right {
+  margin-top: 10px;
+}
+#teach-right button {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-weight: bold;
+  font-family: lio1;
+  font-size: 2em;
+}
+#teach-right > div {
+  height: 415px;
+  background: #39f;
+  margin-top: 15px;
+  padding: 0px 20px;
+}
+#teach-right > div h4 {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 2em;
+  font-family: lio;
+  font-weight: bold;
+  background: blue;
+  margin: 0;
+  display: block;
+  position: static;
+}
+#teach-right > div ul {
+  height: 305px;
+  background: pink;
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+  position: relative;
+}
+#teach-right > div ul li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+}
+#teach-right > div ul li img {
+  width: 100%;
+  height: 100%;
+}
+#teach-right > div p {
+  height: 60px;
+  background: red;
+  margin: 0;
+  padding: 0;
+}

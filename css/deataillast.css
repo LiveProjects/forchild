@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: lio1;
+  src: url(../../fonts/lio1.ttf);
+}
+#video {
+  height: 700px;
+  background: #39f;
+}

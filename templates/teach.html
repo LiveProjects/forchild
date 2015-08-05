@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>头部模块</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=5; IE=8"> 
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/widget/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/teach.css">
+</head>
+<body>
+	<div id="header" class="header">
+        <i></i>
+        <h3>登陆了</h3>
+        <ul>
+            <li><button type="button" class="btn btn-success">用QQ登陆</button></li>
+            <li><input type="text" placeholder="——  or  ——" disabled="disabled" style="border:none; text-align:center; background:white;"></li>
+            <li><input type="text" placeholder="用户名..."></li>
+            <li><input type="text" placeholder="密码..."></li>
+            <li style="height:30px;"><button type="button" class="btn btn-success" style="margin:0;font-size:0.8em;">忘记密码，请点击这里<a href=""></a></button></li>
+            <li style="margin-top:16px;"><button type="submit" class="btn btn-info">登陆</button></li>
+        </ul>
+    </div>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">Student</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="#">首页<span class="sr-only">(current)</span></a></li>
+	        <li><a href="#">选项一</a></li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">下拉菜单<span class="caret"></span></a>
+	          <ul class="dropdown-menu" role="menu">
+	            <li><a href="#">选项一</a></li>
+	            <li><a href="#">选项一</a></li>
+	            <li><a href="#">选项一</a></li>
+	            <li class="divider"></li>
+	            <li><a href="#">选项一</a></li>
+	            <li class="divider"></li>
+	            <li><a href="#">选项一</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+	      <form class="navbar-form navbar-left" role="search">
+	        <div class="form-group">
+	          <input type="text" class="form-control" placeholder="Search">
+	        </div>
+	        <button type="submit" class="btn btn-default">查找</button>
+	      </form>
+	      <ul class="nav navbar-nav navbar-right" id="login">
+	        <li id="log"><a href="#" class="btn btn-success">登陆</a></li>
+	        <li id="reg"><a href="#" class="btn btn-success">注册</a></li>
+	        <ol>
+	            <li><a href="">家长</a></li>
+	            <li><a href="">辅导机构及个人</a></li>
+	        </ol>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+    
+	<div class="container col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12" id="teach-header">
+		<div class="col-lg-8 col-md-8  col-sm-12 col-xs-12" id="teach-header-left">
+			<a  class="col-lg-3 col-md-3  col-sm-3 col-xs-3" href="">推荐</a>
+			<h3  class="col-lg-8 col-md-8  col-sm-8 col-xs-8">辅导机构名</h3>
+			<div>
+				<button  class="col-lg-3 col-md-3  col-sm-3 col-xs-3"><span></span>电话</button>
+				<button  class="col-lg-4 col-md-4  col-sm-4 col-xs-4"><span></span>邮箱</button>
+				<button  class="col-lg-3 col-md-4  col-sm-4 col-xs-4"><span></span>收藏</button>
+			</div>
+		</div>
+
+		<div class="col-lg-4 col-md-4 col-lg-offset-0 col-md-offset-0 col-sm-0 col-xs-0 pull-right" id="teach-header-right">
+			<div  class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
+				<a href=""  class="col-lg-8 col-md-8  col-sm-8 col-xs-8">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</a>
+				<img src="images/3.jpg" alt=""  class="col-lg-4 col-md-4  col-sm-4 col-xs-4 pull-right">
+				<small  class="col-lg-12 col-md-12  col-sm-0 col-xs-0">细节说明</small>
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="container col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-1 col-sm-12 col-xs-12" id="luan">
+		<div class="col-lg-8 col-md-8  col-sm-12 col-xs-12" id="teach-left">
+			
+			<div class="col-lg-12 col-md-12  col-sm-12 col-xs-12" id="teach-middle-left">
+				<ul>
+					<li>photo
+						<ol id="media">
+							<li></li>
+							<li style="z-index:10;">
+								<video controls="controls" id="video" poster="images/3.jpg">
+									您的浏览器不支持
+									<source src="video/1.mp4">
+								</video>
+							</li>
+							<li></li>
+							<li></li>
+						</ol>
+					</li>
+					<li>Map</li>
+					<li>
+						意见
+						<h4>
+							<p></p>
+							<p></p>
+							<p></p>
+							<p></p>
+							<p></p>
+							<p></p>
+						</h4>
+					</li>
+					<li>
+						价格活动
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="btn-group col-lg-12 col-md-12  col-sm-12 col-xs-12" role="group" id="teach-middle-left-button">
+			  <button type="button" class="btn btn-default col-lg-3 col-md-3  col-sm-3 col-xs-3">图片</button>
+			  <button type="button" class="btn btn-default col-lg-3 col-md-3  col-sm-3 col-xs-3">地图</button>
+			  <div class="btn-group col-lg-3 col-md-3  col-sm-3 col-xs-3 dropup" role="group">
+			    <button type="button" class="btn btn-default dropdown-toggle " data-toggle="dropdown" aria-expanded="false">
+			      意见
+			      <span class="caret"></span>
+			    </button>
+			    <ul class="dropdown-menu" role="menu">
+			      <li><a href="#">家长</a></li>
+			      <li><a href="#">其他</a></li>
+			    </ul>
+			  </div>
+			  <button type="button" class="btn btn-default col-lg-3 col-md-3  col-sm-3 col-xs-3">价格活动</button>
+			  
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-lg-offset-0 col-md-offset-0 col-sm-0 col-xs-0 pull-right" id="teach-middle-right">
+				<div  class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
+					
+				</div>
+			</div>
+
+
+			<div class="col-lg-12 col-md-12  col-sm-12 col-xs-12" id="teach-middle-left2">
+				
+			</div>
+			<div class="col-lg-12 col-md-12  col-sm-12 col-xs-12" id="teach-middle-left3">
+				
+			</div>
+
+
+
+		</div>
+		<div class="col-lg-4 col-md-4 col-lg-offset-0 col-md-offset-0 col-sm-10 col-xs-10 col-sm-offset-1 col-xs-offset-1" id="teach-right">
+			<button class="btn btn-info col-lg-12 col-md-12  col-sm-12 col-xs-12">big button</button>
+			<div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
+				<h4 class="col-lg-12 col-md-12  col-sm-12 col-xs-12">负责人介绍</h4>
+				<ul>
+					<li><img src="images/3.jpg" alt=""></li>
+					<li><img src="images/3.jpg" alt=""></li>
+					<li><img src="images/3.jpg" alt=""></li>
+					<li><img src="images/3.jpg" alt=""></li>
+					<li><img src="images/3.jpg" alt=""></li>
+					<li><img src="images/3.jpg" alt=""></li>
+				</ul>
+				<p></p>
+			</div>
+		</div>
+
+
+	</div>
+	<div id="clear"></div>
+	<footer class="footer" id="footer">
+    	<ol>
+    		<li><a href=""></a></li>
+    		<li><a href=""></a></li>
+    		<li><a href=""></a></li>
+    		<li><a href=""></a></li>
+    		<li><a href=""></a></li>
+    		<li><a href=""></a></li>
+    		<li><a href=""></a></li>
+    		<li><a href=""></a></li>
+    		<li><a href=""></a></li>
+    		<li><a href=""></a></li>
+    	</ol>
+    </footer>
+</body>
+<script type="text/javascript" src="bootstrap/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="../js/widget/nav.js"></script>
+<script type="text/javascript" src="../js/teach.js"></script>
+</html>

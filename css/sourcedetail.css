@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: lio1;
+  src: url(../../fonts/lio1.ttf);
+}
+body {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#sourcedetail-top {
+  height: 180px;
+  background: yellow;
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+#sourcedetail-top img {
+  display: block;
+  float: left;
+  height: 100%;
+  margin: 0;
+}
+#sourcedetail-top li {
+  height: inherit;
+  padding: 0px 10px;
+  width: 160px;
+  text-align: center;
+  line-height: 160px;
+  font-size: 1.2em;
+  font-weight: bold;
+  list-style: none;
+  float: left;
+  border-right: 1px solid red;
+}
+#sourcedetail-middle ul {
+  background: white;
+  height: 60px;
+}
+#sourcedetail-middle ul li {
+  height: inherit;
+  line-height: 60px;
+  list-style: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 6px;
+  cursor: pointer;
+}
+#sourcedetail-middle ul li:hover {
+  color: red;
+}
+#sourcedetail-middle ul li:active {
+  color: red;
+}
+#sourcedetail-middle #sourcedetail-middle1 {
+  background-color: white;
+}
+#sourcedetail-middle #sourcedetail-middle1 dl {
+  background-color: white;
+}
+#sourcedetail-middle #sourcedetail-middle1 dl dt {
+  height: 60px;
+  background: green;
+  line-height: 60px;
+  margin-top: 6px;
+  cursor: pointer;
+  text-indent: 20px;
+  font-size: 1.4em;
+}
+#sourcedetail-middle #sourcedetail-middle1 dl dd {
+  height: 50px;
+  margin-top: 6px;
+  line-height: 60px;
+  background-color: red;
+  display: none;
+  cursor: pointer;
+  transition: ease-out 0.2s;
+  -webkit-transition: ease-out 0.2s;
+  -o-transition: ease-out 0.2s;
+  -moz-transition: ease-out 0.2s;
+  -ms-transition: ease-out 0.2s;
+  text-indent: 40px;
+  list-style: disc;
+}
+#sourcedetail-middle-right {
+  padding: 0;
+  margin: 0;
+}
+#sourcedetail-middle-right #sourcedetail-middle-right1 {
+  height: 310px;
+  background: white;
+  box-shadow: 0px 0px 10px blue;
+  -webkit-box-shadow: 0px 0px 10px blue;
+  -o-box-shadow: 0px 0px 10px blue;
+  -moz-box-shadow: 0px 0px 10px blue;
+  -ms-box-shadow: 0px 0px 10px blue;
+  width: 90%;
+}
+#sourcedetail-middle-right #sourcedetail-middle-right1 h4 {
+  display: block;
+  height: 50px;
+  margin: 0;
+  line-height: 50px;
+  text-align: left;
+  text-indent: 10px;
+  font-weight: bold;
+  border-bottom: 1px solid #999;
+}
+#sourcedetail-middle-right #sourcedetail-middle-right1 img {
+  height: 100px;
+  width: 100px;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+#sourcedetail-middle-right #sourcedetail-middle-right1 p {
+  height: 140px;
+  text-indent: 2em;
+  font-size: 1em;
+  overflow: auto;
+  font-size: 1.2em;
+  padding: 8px;
+  font-weight: 500;
+}
